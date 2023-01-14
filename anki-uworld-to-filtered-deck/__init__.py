@@ -87,6 +87,9 @@ def _createFilteredDeckForUWorldQuestion(qid, fullTagName, parentDeckPath):
             search += " " + config["supplementalSearchText"]
         if config["numCards"] > 0:
             numberCards = config["numCards"]
+        if config["unsuspendAutomatically"]:
+            cidsToUnsuspend = col.find_cards(search)
+            col.sched.unsuspend_cards(cidsToUnsuspend)
 
     did = col.decks.new_filtered(deckName)
     deck = col.decks.get(did)
