@@ -7,7 +7,7 @@ An [anki addon]([url](https://ankiweb.net/shared/info/231059189)) that takes in 
 
 # Usage
 1. Tools → UWorld Filtered Decks → Enter a comma-separated list of question IDs and hit enter
-2. Filtered decks will be created under a new UWorld deck for each question. Questions with no corresponding 
+2. Filtered decks will be created under a new UWorld deck for each question. Questions with no corresponding cards tagged as such will be ignored. 
 
 # Configuration
 Configuration options can be found in the add-on config, accessible from Tools → Add-ons → Select the add-on → Config.
