@@ -15,6 +15,7 @@ Configuration options can be found in the add-on config, accessible from Tools â
 <ul>
   <li>By default, there is no search text that is added to the end of the filtered deck search. I personally use (is:due OR is:new) so that studying the tag pulls all new or due cards - this replicates studying by deck most closely. To modify this search text that's added, change the value of the supplementalSearchText variable in the config.</li>
   <li>By default, there is a limit of 300 cards that are added to the deck. I chose this because it's sufficiently high that I'd never personally want to study a deck that large without breaking it up. If you'd like to change the limit of the number of cards pulled into the filtered deck, modify the numCards in the config.</li>
+  <li>The addon automatically unsuspends cards that should belong in the deck. To disable this, mark the unsuspendAutomatically configuration option as false.</li>
 </ul>
 
  # Notes
