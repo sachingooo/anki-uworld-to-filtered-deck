@@ -1,5 +1,5 @@
 # anki-uworld-to-filtered-deck
-An anki addon that takes in a list of UWorld question IDs, and creates filtered decks from those questions by searing the AnKing deck for notes tagged with those UWorld question IDs. 
+An [anki addon]([url](https://ankiweb.net/shared/info/231059189)) that takes in a list of UWorld question IDs, and creates filtered decks from those questions by searing the AnKing deck for notes tagged with those UWorld question IDs. 
 <b>Meant to be used with the AnKing anki deck.</b> If you do not have the AnKing deck, this addon will not work. Best results on AnKing v10 or higher. 
 
 <b>This is not my idea. There are existing addons that perform similar functionality - this addon is my implementation of that idea.</b>
